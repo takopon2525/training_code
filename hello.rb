@@ -1,7 +1,5 @@
 # FizzBuzzゲーム
 # Example usage
-fizzbuzz(15)
-
 def fizzbuzz(max_number)
     (1..max_number).each do |n|
         if n % 3 == 0 && n % 5 == 0
